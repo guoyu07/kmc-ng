@@ -39,7 +39,7 @@
     "build:prod:analyze": "node --max_old_space_size=8092 ./node_modules/@angular/cli/bin/ng build --prod --preserve-symlinks --aot --extract-licenses --named-chunks --stats-json  && webpack-bundle-analyzer dist/stats.json",
     "postbuild:prod": "node ./scripts/post-build-prod.js",
     "test": "ng test",
-    "lint": "ng lint > lint-errors.txt",
+    "lint": "ng lint -t verbose > lint-errors.txt",
     "e2e": "ng e2e",
     "kaltura-libs:upgrade": "npm i @kaltura-ng/mc-{theme,shared}@latest @kaltura-ng/kaltura-{common,logger,primeng-ui,ui}@latest",
     "compodoc": "./node_modules/.bin/compodoc -p tsconfig.json --disableGraph --disablePrivateOrInternalSupport --toggleMenuItems",
