@@ -96,7 +96,7 @@
     "@types/jasmine": "2.5.45",
     "@types/jquery": "^2.0.40",
     "@types/node": "~6.0.60",
-    "codelyzer": "~4.0.1",
+    "codelyzer": "~4.2.1",
     "enhanced-resolve": "~3.3.0",
     "standard-version": "^4.0.0",
     "ts-node": "~4.1.0",
